@@ -102,11 +102,13 @@ sudo apk add i3wm rofi kitty thunar feh picom network-manager-applet pasystray k
 ---
 ![Desktop Preview](2.png)
 ---
-## 🎨 Aesthetic Details
-- **Gaps:** Inner 10px, Outer 5px.
-- **Borders:** Borderless design (0px).
-- **Colors:** Focused (#FF69B4), Inactive (#FFB6C1).
-- **Bar:** Positioned at the Top.
+
+## 🎨 Aesthetic Specifications
+* **Colors:** Hot Pink Theme (`#FF69B4`, `#FFB6C1`)
+* **Borders:** Pixel 0 (Borderless)
+* **Gaps:** Inner 10px, Outer 5px
+* **Wallpapers:** Available on my [DeviantArt Gallery](https://www.deviantart.com/didislothstanca/gallery)
+
 ## 🎨 Autostart Configuration
 
 -   feh (wallpaper)
@@ -139,5 +141,4 @@ sudo apk add i3wm rofi kitty thunar feh picom network-manager-applet pasystray k
 ------------------------------------------------------------------------
 
 ## ❤️ Credits
-it) ~/dotfilesit) ~/dotfilesit) ~/dotfiles
 Enjoy and customized by the user.
