@@ -28,6 +28,8 @@ chmod +x setup.sh
 
 Install the following packages based on your Linux distribution:
 
+![Desktop Preview](DS3.png)
+
 --------------------------------------------------------------------------------------------------
 # Optional if you can't install, It's work for Xorg & Xlibre, but for Wayland? idk if doesn't work or work
 ### 1. Arch Linux
@@ -46,7 +48,7 @@ sudo xbps-install -S i3 rofi kitty Thunar feh picom nm-applet pasystray kazam de
 ```bash
 sudo apk add i3wm rofi kitty thunar feh picom network-manager-applet pasystray kazam dex i3status xss-lock i3lock pulseaudio xrandr
 ```
------------------------------------------------------------------------------------------
+---
 ## ⌨️ Keybindings (Mod = Windows / Super Key)
 
 ### Applications & Essentials
@@ -70,7 +72,7 @@ sudo apk add i3wm rofi kitty thunar feh picom network-manager-applet pasystray k
 | **$mod + Shift + j / k / l / ;** | Move Window Position |
 | **$mod + Shift + Arrow Keys** | Move Window Position |
 | **$mod + space** | Toggle Focus (Floating/Tiling) |
--------------------------------------------------------------------------------------------
+---
 ### Layout & Workspaces
 | Key Combination | Action |
 | :--- | :--- |
@@ -98,6 +100,8 @@ sudo apk add i3wm rofi kitty thunar feh picom network-manager-applet pasystray k
 | **$mod + Left Click (Hold)** | Drag Floating Windows |
 
 ---
+![Desktop Preview](2.png)
+---
 ## 🎨 Aesthetic Details
 - **Gaps:** Inner 10px, Outer 5px.
 - **Borders:** Borderless design (0px).
@@ -112,7 +116,7 @@ sudo apk add i3wm rofi kitty thunar feh picom network-manager-applet pasystray k
 -   xrandr (screen resolution)
 -   dex (XDG autostart)
 
-------------------------------------------------------------------------
+---
 
 ## 📁 Directory Structure
 
@@ -135,5 +139,5 @@ sudo apk add i3wm rofi kitty thunar feh picom network-manager-applet pasystray k
 ------------------------------------------------------------------------
 
 ## ❤️ Credits
-
-Generated using i3-config-wizard and customized by the user.
+it) ~/dotfilesit) ~/dotfilesit) ~/dotfiles
+Enjoy and customized by the user.
