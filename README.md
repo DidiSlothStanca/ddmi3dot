@@ -19,6 +19,9 @@ git clone https://github.com/DidiSlothStanca/ddmi3dot.git ~/dotfiles
 cd ~/dotfiles
 ```
 ```bash
+chmod +x backup.sh
+```
+```bash
 chmod +x setup.sh
 ```
 ```bash
