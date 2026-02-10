@@ -1,0 +1,98 @@
+configuration {
+    show-icons: true;
+    icon-theme: "Papirus"; 
+}
+
+* {
+    font: "JetBrainsMono Nerd Font 11";
+    
+    /* VARIABEL WARNA PINK */
+    bg0:    #FFB6C1E6; /* Transparansi */
+    bg1:    #FF69B4;   /* Block Apps */
+    fg0:    #2d3436;   /* Teks */
+    accent: #FF1493;   /* Deep Border */
+    urgent: #ff0000;   /* Pesan */
+
+    background-color:   transparent;
+    text-color:         @fg0;
+    margin:             0;
+    padding:            0;
+    spacing:            0;
+}
+
+/* * {
+    font: "JetBrainsMono Nerd Font 11";
+    bg0:    #11111bE6;
+    bg1:    #1e1e2e;
+    fg0:    #cdd6f4;
+    accent: #89b4fa;
+    urgent: #f38ba8;
+
+    background-color:   transparent;
+    text-color:         @fg0;
+    margin:             0;
+    padding:            0;
+    spacing:            0;
+}
+*/
+
+window {
+    background-color:   @bg0;
+    location:           center;
+    width:              600;
+    border-radius:      12;
+    border:             2;
+    border-color:       @accent;
+}
+
+inputbar {
+    font:               "JetBrainsMono Nerd Font 13";
+    padding:            12px;
+    spacing:            12px;
+    children:           [ icon-search, entry ];
+}
+
+icon-search {
+    expand:             false;
+    filename:           "search";
+    size:               24px;
+    vertical-align:     0.5;
+}
+
+entry {
+    placeholder:        "Search Apps...";
+    placeholder-color:  #6c7086;
+    vertical-align:     0.5;
+}
+
+listview {
+    fixed-height:       false;
+    margin:             0 0 8px 0;
+    lines:              8;
+    columns:            1;
+    scrollbar:          false;
+}
+
+element {
+    padding:            8px 12px;
+    spacing:            8px;
+    border-radius:      8px;
+    margin:             0 8px;
+}
+
+element normal.urgent, element alternate.urgent {
+    text-color:         @urgent;
+}
+
+element selected.normal, element selected.urgent {
+    background-color:   @accent;
+    text-color:         @bg1;
+}
+
+element-icon {
+    size:               24px;
+}
+
+element-text {
+    vertical-align:     0.5;
+}
