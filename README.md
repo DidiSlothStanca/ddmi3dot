@@ -37,19 +37,19 @@ Install the following packages based on your Linux distribution:
 # Optional if you can't install, It's work for Xorg & Xlibre, but for Wayland? idk if doesn't work or work
 ### 1. Arch Linux
 ```bash
-sudo pacman -S i3-wm rofi kitty thunar feh picom nm-applet pasystray kazam dex i3status xss-lock i3lock pulseaudio xorg-xrandr
+sudo pacman -S i3-wm i3status rofi kitty picom feh scrot pasystray networkmanager ttf-jetbrains-mono
 ```
 ### 2. Debian Linux
 ```bash
-sudo apt update && sudo apt install i3 rofi kitty thunar feh picom nm-applet pasystray kazam dex i3status xss-lock i3lock pulseaudio x11-xserver-utils
+sudo apt update && sudo apt install i3-wm i3status rofi kitty picom feh scrot pasystray network-manager ttf-jetbrains-mono
 ```
-### 3. Arch Linux
+### 3. Void Linux
 ```bash
-sudo xbps-install -S i3 rofi kitty Thunar feh picom nm-applet pasystray kazam dex i3status xss-lock i3lock pulseaudio xrandr
+sudo xbps-install -S i3 i3status rofi kitty picom feh scrot pasystray NetworkManager font-jetbrains-mono-otf
 ```
 ### 4. Alpin Linux
 ```bash
-sudo apk add i3wm rofi kitty thunar feh picom network-manager-applet pasystray kazam dex i3status xss-lock i3lock pulseaudio xrandr
+sudo apk add i3wm i3status rofi kitty picom feh scrot pasystray networkmanager font-jetbrains-mono
 ```
 ---
 ## ⌨️ Keybindings (Mod = Windows / Super Key)
