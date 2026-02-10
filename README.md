@@ -1,9 +1,29 @@
 # 🌸 DdM i3 Dot
 
-![Desktop Preview](preview.png)
+![Desktop Preview](DS1.png)
 
-A customized, borderless i3wm setup with a hot-pink aesthetic. This configuration is optimized for productivity with custom gaps and integrated system trays.
+A customized, borderless i3wm setup with a hot-pink aesthetic.
 
+> [!CAUTION]
+> **WARNING:** The setup script will install packages using `sudo` and overwrite existing configurations in `~/.config/`. Back up your current files before proceeding!
+
+## 🚀 Fast Installation (Arch & Debian)
+
+If you have cloned this repository to `~/dotfiles`, run the following commands:
+# 1. Clone the repo
+```bash
+git clone [https://github.com/DidiSlothStanca/ddmi3dot.git](https://github.com/DidiSlothStanca/ddmi3dot.git) ~/dotfiles
+```
+# 2. Enter directory and run setup
+```bash
+cd ~/dotfiles
+```
+```bash
+chmod +x setup.sh
+```
+```bash
+./setup.sh
+```
 ## 📦 Required Dependencies
 
 Install the following packages based on your Linux distribution:
