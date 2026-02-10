@@ -12,7 +12,7 @@ A customized, borderless i3wm setup with a hot-pink aesthetic.
 If you have cloned this repository to `~/dotfiles`, run the following commands:
 # 1. Clone the repo
 ```bash
-git clone [https://github.com/DidiSlothStanca/ddmi3dot.git](https://github.com/DidiSlothStanca/ddmi3dot.git) ~/dotfiles
+git clone https://github.com/DidiSlothStanca/ddmi3dot.git ~/dotfiles
 ```
 # 2. Enter directory and run setup
 ```bash
